@@ -1,0 +1,8 @@
+--- User Profile for chillie a ---
+<think>
+Okay, let's see. The user answered all the questions with "no" or "i have not". They haven't used Python for data analysis or machine learning, aren't familiar with NumPy or Pandas, and haven't worked with GPU computing or NVIDIA libraries. So their knowledge level must be beginner. The strategy should start with Knowledge Level: Beginner, then the exact phrase, and explain using high-level concepts, explaining why GPU acceleration is useful, and introducing NVIDIA libraries as a simple alternative. Got it.
+</think>
+
+Knowledge Level: Beginner  
+TUTORING STRATEGY: The user is a beginner. The tutor should start by introducing fundamental concepts in data science, such as the role of Python in data analysis and the importance of libraries like NumPy and Pandas for data manipulation. Emphasize the 'why' behind GPU acceleration, highlighting its potential to speed up computations and handle large datasets. Introduce NVIDIA libraries (e.g., CuPy) as intuitive, powerful alternatives to traditional CPU-based tools, framing them as a natural next step for efficiency and scalability. Use simple, relatable examples to build foundational understanding.
+--- End of Profile ---
