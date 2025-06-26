@@ -1,0 +1,12 @@
+--- User Profile for Prithvi Jai ---
+<think>
+Okay, let's see. The user's answers are all "no" or "nope" regarding Python, NumPy, Pandas, GPU acceleration, and NVIDIA-specific libraries. That suggests they don't have any prior experience in those areas. The task is to determine their knowledge level and generate the appropriate tutoring strategy.
+
+First, determining the knowledge level. Since they haven't used Python for data analysis or machine learning, aren't familiar with NumPy or Pandas, and don't know about GPU acceleration or NVIDIA libraries, they must be a beginner. The next step is to follow the Beginner strategy format.
+
+The strategy for a beginner should start with "Knowledge Level: Beginner" and then explain that the tutor should use high-level concepts, explain the 'why' of GPU acceleration, and introduce NVIDIA libraries like CuPy as a simple, powerful alternative. I need to make sure the report is concise and follows the exact structure provided. Let me check the example again to ensure compliance. Yes, the format is clear. I'll structure the report accordingly, making sure each part is correctly placed and the language is clear for the AI tutor to follow.
+</think>
+
+Knowledge Level: Beginner  
+TUTORING STRATEGY: The user is a beginner. The tutor should start with high-level concepts, explain the 'why' of GPU acceleration (e.g., speed, scalability), and introduce NVIDIA libraries like CuPy as a simple, powerful alternative to CPU-based tools. Focus on foundational skills (e.g., Python basics, NumPy/Pandas) before progressing to GPU-specific topics.
+--- End of Profile ---

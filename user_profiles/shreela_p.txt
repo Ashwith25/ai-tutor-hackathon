@@ -1,0 +1,14 @@
+--- User Profile for Shreela P ---
+<think>
+Okay, let's see. The user is Shreela P, and she answered a questionnaire about her data science skills. The task is to analyze her answers and generate a tutoring strategy report.
+
+First, I need to determine her knowledge level. The answers are: yes to Python for data analysis and machine learning, yes to NumPy and Pandas, no to GPU acceleration, and no to NVIDIA-specific libraries like CuPy or RAPIDS.
+
+So, she has experience with Python and basic libraries, which suggests she's at least intermediate. But she doesn't know about GPU acceleration or NVIDIA libraries. That's a gap. Since she's familiar with NumPy and Pandas, which are core tools, but hasn't used GPU-related stuff, that might place her in the intermediate category. Beginners might not even know about NumPy. So, intermediate seems right here.
+
+Now, the strategy format for intermediate is to start with the knowledge level, then explain that the tutor should provide direct code comparisons between NumPy and CuPy, focus on performance benefits, and include benchmarking examples. That makes sense because she knows the basics but needs to be shown how GPU computing can enhance her current workflows. The report should guide the tutor to bridge her existing knowledge with GPU acceleration, showing the advantages through concrete examples.
+</think>
+
+Knowledge Level: Intermediate  
+TUTORING STRATEGY: The user is at an intermediate level. The tutor should provide direct code comparisons (e.g., NumPy vs. CuPy), focus on performance benefits, and show clear benchmarking examples. Emphasize practical applications of GPU acceleration for tasks she is already familiar with (e.g., data manipulation and machine learning), and introduce NVIDIA libraries like CuPy and RAPIDS as tools to scale her existing workflows. Highlight real-world use cases where GPU computing significantly reduces computation time.
+--- End of Profile ---
