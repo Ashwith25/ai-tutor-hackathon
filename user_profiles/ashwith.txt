@@ -1,0 +1,20 @@
+--- User Profile for Ashwith ---
+<think>
+Okay, let's start by analyzing Ashwith's answers. 
+
+First question: He has used Python for data analysis and machine learning, and even mentions making several projects. That's a good sign, but not sure yet if it's advanced or intermediate.
+
+Second question: He's familiar with NumPy and Pandas, and says he's very skilled. That suggests he's comfortable with these libraries, which are fundamental. But again, need more context.
+
+Third question: He mentions using CUDA for tasks requiring more computational power. That's a clear indicator of experience with GPU acceleration. CUDA is not beginner stuff, so this points towards advanced or intermediate.
+
+Fourth question: He worked with GPU-accelerated libraries like CuPy and RAPIDS, and says they're amazing. This shows he's not just aware of them but has hands-on experience. That's more advanced.
+
+Putting it all together: He has experience with Python, NumPy/Pandas, CUDA, and GPU libraries. His answers are confident and specific. So, he's likely advanced. 
+
+Now, the strategy format for advanced says to discuss the NVIDIA RAPIDS ecosystem and benchmarking on Sol supercomputer. That fits here. So the report should be advanced level, with the corresponding strategy.
+</think>
+
+Knowledge Level: Advanced  
+TUTORING STRATEGY: The user is advanced. The tutor can provide nuanced advice, discuss the broader NVIDIA RAPIDS ecosystem, and cover specific benchmarking methodologies on the Sol supercomputer. Focus on optimizing workflows with hybrid CPU-GPU architectures, advanced CUDA techniques, and integrating RAPIDS with distributed computing frameworks. Prioritize deep dives into performance profiling and scalability analysis for large-scale data science tasks.
+--- End of Profile ---
