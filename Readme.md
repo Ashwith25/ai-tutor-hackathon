@@ -24,7 +24,7 @@ config:
   look: neo
   layout: fixed
 ---
-flowchart LR
+flowchart TD
  subgraph subGraph0["Phase 1: Setup &amp; Initialization"]
         P(("User Profile"))
         Z["User Creates a Profile"]
