@@ -13,7 +13,7 @@ We didn't just build a simple chatbot. We engineered a sophisticated, multi-agen
 
 Our system is designed to understand the user, find relevant, up-to-date information, craft a personalized, GPU-first answer, and then prove its own recommendations with real-world benchmarks executed on the ASU Sol supercomputer.
 
-#### System Flowchart
+#### Multi-Agent Architecture
 
 This is how our agents collaborate to answer a user's question:
 
