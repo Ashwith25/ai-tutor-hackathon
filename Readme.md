@@ -115,3 +115,30 @@ To provide the most relevant, up-to-date context for its answers, our **Hybrid R
 1.  **Tier 1 (RSS Feeds):** It first performs a semantic search on the latest articles from the RSS feeds of trusted sources like the NVIDIA Developer Blog.
 2.  **Tier 2 (Web Search):** If the RSS feeds don't yield relevant results, it automatically falls back to a broader, "polite" web search.
 3.  **Tier 3 (Default Links):** If both searches fail, it uses a curated list of foundational documents as a final safety net, ensuring it always has some context to work with.
+
+### 🙏 Acknowledgements
+
+This project was created as part of the **AI Accelerated Spark Challenge** (June 23 - 30, 2025), and we would like to extend our sincere gratitude to everyone who made this event possible.
+
+**Organizers & Sponsors:**
+
+* We thank **Arizona State University (ASU) Enterprise Technology** for hosting this challenge.
+* A special thank you to **TiE Phoenix**, **AZNext**, and **NVIDIA** for sponsoring the event, providing the invaluable bootcamp, and giving us the mission to explore GPU acceleration.
+
+**Mentors & Presenters:**
+
+We are grateful for the time and expertise shared by the mentors and presenters who guided us throughout the week.
+
+* From **ASU Enterprise Technology / Research Computing**:
+    * Olivia Herneddo, Mansi Patel, William Dizon, and Juanjo (JJ) García Mesa.
+    * Gil Speyer, Director of the Computational Research Accelerator.
+* From **NVIDIA**:
+    * Solutions Architects Zoe Ryan and Amanda Butler for their excellent bootcamp and mentorship.
+* We also thank all the **Challenge Evaluators** for volunteering their time to judge our projects.
+
+**Technology & Resources:**
+
+This project would not have been possible without access to the following key technologies:
+
+* The **ASU Sol Supercomputer**, including access to the A100 GPU partition, provided by ASU Research Computing.
+* The **NVIDIA Python materials** and bootcamp, which formed the educational core of our project's mission.
