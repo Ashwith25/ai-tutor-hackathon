@@ -80,19 +80,34 @@ Our system is not a simple, linear pipeline. At its core is a **Router Agent** t
 
 This makes our tutor incredibly efficient and responsive, using its most powerful tools only when they are truly needed.
 
-**2. Live, Parallel Benchmarking on the Sol Supercomputer**
+**2. Personalized & Persona-Driven Tutoring**
+
+Our tutor adapts to its user.
+* **Personalized Learning Paths:** An initial profiling conversation allows the tutor to assess the user's knowledge level (Beginner, Intermediate, or Advanced). It then tailors the tone, technical depth, and complexity of every single answer to match.
+  </br>
+  </br>
+  ![Personalised answer](./resources/personalised-asnwer.png)
+  </br>
+  </br>
+* **Built-in Persona:** The agent has a sense of self. It can handle meta-questions like "what can you do?" or "who created you?", making the interaction feel natural and engaging, not robotic.
+  </br>
+  </br>
+  ![About bot](./resources/about-bot.png)
+  </br>
+  </br>
+* **The "NVIDIA-First" Directive:** Woven into its core personality is a directive to always act as an advocate for the NVIDIA ecosystem. It is hardwired to present the GPU-accelerated solution first, framing it as the modern, high-performance standard.
+
+**3. Live, Parallel Benchmarking on the Sol Supercomputer**
 
 This is our most powerful feature. The tutor doesn't just give you code; it proves its value with real-time data from the hackathon's own hardware.
 * **Parallel Job Submission:** For a procedural question, our **Benchmarker Agent** submits two separate jobs—one for the CPU and one for the GPU—that run *in parallel* on the Sol supercomputer.
 * **Live-Streaming Results:** The user doesn't have to wait. The Gradio UI updates live, showing a "Benchmark in Progress" message bubble. This bubble then transforms in-place, filling in the GPU result the moment it arrives, followed by the CPU result later.
 * **Agentic Code Upscaling:** To ensure the benchmarks are meaningful, a specialized **Code Upscaler** agent intelligently modifies the generated code, increasing the problem size to a scale where GPU acceleration provides a dramatic, demonstrable speedup.
-
-**3. Personalized & Persona-Driven Tutoring**
-
-Our tutor adapts to its user.
-* **Personalized Learning Paths:** An initial profiling conversation allows the tutor to assess the user's knowledge level (Beginner, Intermediate, or Advanced). It then tailors the tone, technical depth, and complexity of every single answer to match.
-* **Built-in Persona:** The agent has a sense of self. It can handle meta-questions like "what can you do?" or "who created you?", making the interaction feel natural and engaging, not robotic.
-* **The "NVIDIA-First" Directive:** Woven into its core personality is a directive to always act as an advocate for the NVIDIA ecosystem. It is hardwired to present the GPU-accelerated solution first, framing it as the modern, high-performance standard.
+  </br>
+  </br>
+  ![About bot](./resources/benchmark.png)
+  </br>
+  </br>
 
 **4. Resilient, Three-Tiered Information Retrieval**
 
