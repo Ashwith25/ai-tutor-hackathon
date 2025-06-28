@@ -13,35 +13,57 @@ We didn't just build a simple chatbot. We engineered a sophisticated, multi-agen
 
 Our system is designed to understand the user, find relevant, up-to-date information, craft a personalized, GPU-first answer, and then prove its own recommendations with real-world benchmarks executed on the ASU Sol supercomputer.
 
-#### System Flowchart
+#### Multi-Agent Architecture
 
 This is how our agents collaborate to answer a user's question:
 
 ```mermaid
-graph TD
-    subgraph "Phase 1: Setup & Initialization"
-        Z[User Creates a Profile] --> P((User Profile File));
-    end
-
-    subgraph "Phase 2: Live Interaction"
-        A[User Asks Question] --> M{Router Agent};
-        
-        M -->|"Is it a simple, conversational query?"| H[Conversational Agent];
-        M -->|"Is it a direct follow-up?"| I[Follow-up Agent];
-        
-        M -->|"Is it a new, complex technical question?"| C{Hybrid Retriever};
-
-        C -->|Relevant Context| D{AI Tutor & Synthesizer};
-        P -->|Reads Profile| D;
-
-        D --> |Generates CPU & GPU Code| E{Code Upscaler};
-        E --> |Creates Large-Scale Problem| F{Sol Benchmarker};
-        F --> |Streams Live Results| D;
-        
-        H --> G[Final Answer];
-        I --> G;
-        D --> G;
-    end
+---
+config:
+  theme: neo
+  look: neo
+  layout: fixed
+---
+flowchart TD
+ subgraph subGraph0["Phase 1: Setup &amp; Initialization"]
+        P(("User Profile"))
+        Z["User Creates a Profile"]
+  end
+ subgraph subGraph1["Phase 2: Live Interaction"]
+        M{"Router Agent"}
+        A["User Asks Question"]
+        H["Conversational Agent"]
+        I["Follow-up Agent"]
+        C{"Hybrid Retriever"}
+        D{"AI Tutor & Synthesizer"}
+        F{"Sol Benchmarker"}
+        G["Final Answer"]
+  end
+    Z --> P
+    A --> M
+    M -- Is it a simple, conversational query? --> H
+    M -- "Is it a direct follow-up?" --> I
+    M -- Is it a new, complex technical question? --> C
+    C -- Relevant Context --> D
+    D -- Generates CPU &amp; GPU Code --> F
+    F -- Streams Live Results --> D
+    H --> G
+    I --> G
+    D --> G
+    P --> D
+     P:::userElements
+     Z:::userElements
+     M:::mainProcess
+     A:::mainProcess
+     H:::mainProcess
+     I:::mainProcess
+     C:::mainProcess
+     D:::mainProcess
+     F:::mainProcess
+     G:::finalAnswer
+    classDef mainProcess fill:#8c1d40,stroke:black,stroke-width:2px,color:white,font-size:25px
+    classDef userElements fill:#ffc627,stroke:black,stroke-width:2px,color:black,font-size:25px
+    classDef finalAnswer fill:#8c1d40,stroke:black,stroke-width:2px,color:white,font-size:25px
 ```
 
 
