@@ -116,6 +116,11 @@ To provide the most relevant, up-to-date context for its answers, our **Hybrid R
 2.  **Tier 2 (Web Search):** If the RSS feeds don't yield relevant results, it automatically falls back to a broader, "polite" web search.
 3.  **Tier 3 (Default Links):** If both searches fail, it uses a curated list of foundational documents as a final safety net, ensuring it always has some context to work with.
 
+### Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aMSxqW76haU/0.jpg)](https://www.youtube.com/watch?v=aMSxqW76haU)
+
+
 ### 🙏 Acknowledgements
 
 This project was created as part of the **AI Accelerated Spark Challenge** (June 23 - 30, 2025), and we would like to extend our sincere gratitude to everyone who made this event possible.
